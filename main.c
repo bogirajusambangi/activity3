@@ -12,8 +12,8 @@
 #include <stdio.h>
 int main()
 {
-char a[100];
-scanf("%s",a);
-printf("Hexadecimal Sum= %X",name(a));
+char a[100];    //creating  char array 
+scanf("%s",a);  // scanning char array
+printf("Hexadecimal Sum= %X",name(a));  // calling name fun and printing the return value from function
 return 0;
 }
